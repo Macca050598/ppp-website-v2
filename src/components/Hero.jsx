@@ -47,11 +47,11 @@ const Hero = () => {
             <div className="relative bg-n-16 rounded-[1rem]">
               <div className="h-[1.4rem] bg-n-16 rounded-t-[0.9rem]" />
 
-              <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
+              <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[900/490]">
                 <img
                   src={threeappscreenshots2}
                   className="w-full scale-[1.7] translate-y-[8%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[16%]"
-                  width={50}
+                  width={1200}
                   height={510}
                   alt="AI"
                 />
@@ -59,7 +59,7 @@ const Hero = () => {
                 <Generating className="absolute left-4 right-4 bottom-5 md:left-1/2 md:right-auto md:bottom-1 md:w-[31rem] md:-translate-x-1/2" />
 
                 <ScrollParallax isAbsolutelyPositioned>
-                  <ul className="hidden absolute -left-[5.5rem] bottom-[7.5rem] px-1 py-1 bg-n-16/40 backdrop-blur border border-n-16/10 rounded-2xl xl:flex">
+                  <ul className="hidden absolute -left-[5.5rem] bottom-[7.5rem] px-1 py-1 bg-n-18/40 backdrop-blur border border-n-16/10 rounded-2xl xl:flex">
                     {heroIcons.map((icon, index) => (
                       <li className="p-5" key={index}>
                         <img src={icon} width={24} height={25} alt={icon} />

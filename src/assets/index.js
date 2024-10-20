@@ -1,5 +1,6 @@
 import brainwave from "./brainwave.svg";
 import puppyypottypal from "../assets/Icon01.png";
+import puppyypottypal2 from "../assets/Icon03.png";
 import puppypottypallogo from "../assets/LogoForwebsite01.png";
 import threeappscreenshots from "../assets/3AppScreenshots.png";
 import threeappscreenshots2 from "../assets/3AppScreenshotsv2.png";
@@ -155,5 +156,6 @@ export {
   threeappscreenshots,
   threeappscreenshots2,
   singleAppScreenshot1,
-  cockapoo
+  cockapoo,
+  puppyypottypal2
 };

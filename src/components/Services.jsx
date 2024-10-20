@@ -1,6 +1,6 @@
 import Section from "./Section";
 import Heading from "./Heading";
-import { service1, service2, service3, check } from "../assets";
+import { service1, service2, service3, check, cockapoo } from "../assets";
 import { brainwaveServices, brainwaveServicesIcons } from "../constants";
 import {
   PhotoChatMessage,
@@ -28,14 +28,14 @@ const Services = () => {
                 width={800}
                 alt="Smartest AI"
                 height={730}
-                src={service1}
+                src={cockapoo}
               />
             </div>
 
-            <div className="relative z-1 max-w-[17rem] ml-auto">
-              <h4 className="h4 mb-4">Smartest AI</h4>
-              <p className="body-2 mb-[3rem] text-n-3">
-                Brainwave unlocks the potential of AI-powered applications
+            <div className="relative z-1 max-w-[25rem] ml-auto">
+              <h4 className="h4 mb-4">Meet Arlo, your AI potty pal!</h4>
+              <p className="body-2 mb-[3rem] text-neutral-50">
+              Arlo helps you stay ahead of your puppy’s potty breaks. Using an intricate algorithm, Arlo calculates when your dog will likely need the toilet, reducing accidents and making house training easier than ever.
               </p>
               <ul className="body-2">
                 {brainwaveServices.map((item, index) => (

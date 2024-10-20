@@ -1,6 +1,10 @@
 import brainwave from "./brainwave.svg";
 import puppyypottypal from "../assets/Icon01.png";
 import puppypottypallogo from "../assets/LogoForwebsite01.png";
+import threeappscreenshots from "../assets/3AppScreenshots.png";
+import threeappscreenshots2 from "../assets/3AppScreenshotsv2.png";
+import singleAppScreenshot1 from "../assets/SingleAppScreenshot1.png";
+import cockapoo from "../assets/cockapoo.png";
 import check from "./check.svg";
 import brainwaveSymbol from "./brainwave-symbol.svg";
 import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
@@ -147,5 +151,9 @@ export {
   telegram,
   twitter,
   puppyypottypal,
-  puppypottypallogo
+  puppypottypallogo,
+  threeappscreenshots,
+  threeappscreenshots2,
+  singleAppScreenshot1,
+  cockapoo
 };

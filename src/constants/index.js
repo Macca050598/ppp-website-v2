@@ -79,9 +79,9 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  "Predicts when your puppy will next need the toilet",
+  "Advice on training dependent on toilet trip results",
+  "Overall training help",
 ];
 
 export const brainwaveServicesIcons = [
@@ -210,34 +210,37 @@ export const pricing = [
   {
     id: "0",
     title: "Basic",
-    description: "AI chatbot, personalized recommendations",
+    description: "Free version of Puppy Potty Pal..",
     price: "0",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Log potty times for 1 dog",
+      "Daily predictions for potty tracking",
+      "Access to social media features (upload photos, like other users' pictures)",
+      "Ad-supported",
     ],
   },
   {
     id: "1",
-    title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
+    title: "Premium Plan",
+    description: "Get the premium plan of Puppy Potty Pal..",
     price: "9.99",
     features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
+      "Log potty times for unlimited dogs",
+      "AI predictions and recommendations from Arlo",
+      "Family sharing: Sync your dog’s potty data with multiple users/devices",
+      "Custom notifications for potty breaks",
+      "Add free experience",
+      "Priority access to new features and updates",
     ],
   },
   {
     id: "2",
-    title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
-    price: null,
+    title: "Lifetime Plan",
+    description: "Get access to Puppy Potty Pal forever with the one time fee!",
+    price: "49.99",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "All features of the Premium Plan with no ongoing subscription",
+      "Lifetime access to any future feature updates and improvements",
     ],
   },
 ];

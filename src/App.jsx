@@ -8,6 +8,7 @@ import Pricing from "./components/Pricing";
 import Roadmap from "./components/Roadmap";
 import Services from "./components/Services";
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from '@vercel/speed-insights/react';
 const App = () => {
   return (
     <>
@@ -21,6 +22,7 @@ const App = () => {
         <Roadmap />
         <Footer />
         <Analytics />
+        <SpeedInsights />
       </div>
 
       <ButtonGradient />

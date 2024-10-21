@@ -7,7 +7,7 @@ import Hero from "./components/Hero";
 import Pricing from "./components/Pricing";
 import Roadmap from "./components/Roadmap";
 import Services from "./components/Services";
-
+import { Analytics } from "@vercel/analytics/react"
 const App = () => {
   return (
     <>
@@ -20,6 +20,7 @@ const App = () => {
         <Pricing />
         <Roadmap />
         <Footer />
+        <Analytics />
       </div>
 
       <ButtonGradient />

@@ -34,7 +34,7 @@ const Services = () => {
 
             <div className="relative z-1 max-w-[25rem] ml-auto">
               <h4 className="h4 mb-4">Meet Arlo, your AI potty pal!</h4>
-              <p className="body-2 mb-[3rem] text-neutral-50">
+              <p className="body-2 mb-[3rem] text-n-1">
               Arlo helps you stay ahead of your puppy’s potty breaks. Using an intricate algorithm, Arlo calculates when your dog will likely need the toilet, reducing accidents and making house training easier than ever.
               </p>
               <ul className="body-2">
@@ -66,10 +66,10 @@ const Services = () => {
               </div>
 
               <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-17/90 lg:p-15">
-                <h4 className="h4 mb-4">Photo editing</h4>
-                <p className="body-2 mb-[3rem] text-n-3">
-                  Automatically enhance your photos using our AI app&apos;s
-                  photo editing feature. Try it now!
+                <h4 className="h4 mb-4">Toilet Predictions</h4>
+                <p className="body-2 mb-[3rem] text-n-1">
+                  Automatically enhance your training using our AI app&apos;s
+                  toilet prediction feature. Try it now!
                 </p>
               </div>
 
@@ -78,10 +78,10 @@ const Services = () => {
 
             <div className="p-4 bg-n-17 rounded-3xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 xl:px-8">
-                <h4 className="h4 mb-4">Video generation</h4>
+                <h4 className="h4 mb-4">Image and Video Uploads</h4>
                 <p className="body-2 mb-[2rem] text-n-3">
-                  The world’s most powerful AI photo and video art generation
-                  engine. What will you create?
+                  The world’s most powerful AI puppy toilet trainig 
+                  app, let's you upload videos and images. What will you upload?
                 </p>
 
                 <ul className="flex items-center justify-between">

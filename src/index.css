@@ -28,7 +28,7 @@ text: "#2C3E50",       // Dark Slate */
 
 @layer base {
   body {
-    @apply font-sans bg-n-16 text-n-17 text-base;
+    @apply font-sans bg-n-19 text-n-18 text-base;
   }
 }
 

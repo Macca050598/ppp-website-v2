@@ -36,7 +36,8 @@ export default {
           15: "#E67E22",
           16: "#FFA86B",
           17: "#FFFFFF",
-          18: "#E67E22"
+          18: "#E67E22",
+          19: "#FFE0B2"
           // primary: "#E67E22",    // Burnt Orange
           // secondary: "#FFA86B",  // Light Orange
           // tertiary: "#FFF3E0",   // Warm White

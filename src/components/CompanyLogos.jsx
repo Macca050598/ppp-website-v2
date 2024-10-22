@@ -3,7 +3,7 @@ import { puppyypottypal2 } from "../assets";
 const CompanyLogos = ({ className }) => {
   return (
     <div className={className}>
-      <h5 className="tagline mb-6 text-center text-n-17">
+      <h5 className="tagline mb-6 text-center text-n-18">
         Helping people create well trained dogs!
       </h5>
       <ul className="flex">

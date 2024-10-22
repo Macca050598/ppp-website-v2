@@ -35,7 +35,7 @@ const Hero = () => {
               />
             </span>
           </h1>
-          <p className="body-1 max-w-3xl mx-auto mb-6 text-n-17 lg:mb-8">
+          <p className="body-1 max-w-3xl mx-auto mb-6 text-n-18 lg:mb-8">
           Track, log, and predict your puppy’s toilet times with ease.
           </p>
           <Button href="/pricing" white>
@@ -44,8 +44,8 @@ const Hero = () => {
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
           <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient">
-            <div className="relative bg-n-16 rounded-[1rem]">
-              <div className="h-[1.4rem] bg-n-16 rounded-t-[0.9rem]" />
+            <div className="relative bg-n-19 rounded-[1rem]">
+              <div className="h-[1.4rem] bg-n-19 rounded-t-[0.9rem]" />
 
               <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[900/490]">
                 <img
@@ -59,7 +59,7 @@ const Hero = () => {
                 <Generating className="absolute left-4 right-4 bottom-5 md:left-1/2 md:right-auto md:bottom-1 md:w-[31rem] md:-translate-x-1/2" />
 
                 <ScrollParallax isAbsolutelyPositioned>
-                  <ul className="hidden absolute -left-[5.5rem] bottom-[7.5rem] px-1 py-1 bg-n-18/40 backdrop-blur border border-n-16/10 rounded-2xl xl:flex">
+                  <ul className="hidden absolute -left-[5.5rem] bottom-[7.5rem] px-1 py-1 bg-n-19/40 backdrop-blur border border-n-19/10 rounded-2xl xl:flex">
                     {heroIcons.map((icon, index) => (
                       <li className="p-5" key={index}>
                         <img src={icon} width={24} height={25} alt={icon} />

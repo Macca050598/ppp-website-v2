@@ -26,6 +26,7 @@ const App = () => {
         <Footer />
         <Analytics />
         <SpeedInsights />
+        
       </div>
 
       <ButtonGradient />

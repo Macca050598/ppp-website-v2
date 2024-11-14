@@ -8,6 +8,7 @@ import { useRef } from "react";
 import Generating from "./Generating";
 import Notification from "./Notification";
 import CompanyLogos from "./CompanyLogos";
+import WaitlistForm from "./WaitlistForm";
 
 const Hero = () => {
   const parallaxRef = useRef(null);
@@ -38,9 +39,7 @@ const Hero = () => {
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-18 lg:mb-8">
           Track, log, and predict your puppy’s toilet times with ease.
           </p>
-          <Button href="/pricing" white>
-            Coming Soon...
-          </Button>
+          <WaitlistForm />
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
           <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient">

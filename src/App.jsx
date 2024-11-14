@@ -9,6 +9,9 @@ import Roadmap from "./components/Roadmap";
 import Services from "./components/Services";
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from '@vercel/speed-insights/react';
+import Privacy from './pages/Privacy';
+import Terms from './pages/Terms';
+
 const App = () => {
   return (
     <>

@@ -1,6 +1,7 @@
 import React from "react";
 import Section from "./Section";
 import { socials } from "../constants";
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -9,7 +10,14 @@ const Footer = () => {
         <p className="caption text-n-4 lg:block">
           © {new Date().getFullYear()}. All rights reserved. <a href="https://mjweb.ltd">MJWeb Ltd.  </a>
         </p>
-
+        <div className="flex items-center gap-6">
+            <Link to="/privacy" className="text-n-4 hover:text-n-1 text-sm transition-colors">
+              Privacy Policy
+            </Link>
+            <Link to="/terms" className="text-n-4 hover:text-n-1 text-sm transition-colors">
+              Terms of Service
+            </Link>
+          </div>
         <ul className="flex gap-5 flex-wrap">
           {socials.map((item) => (
             <a

@@ -3,7 +3,7 @@ import { collabApps, collabContent, collabText } from "../constants";
 import Button from "./Button";
 import Section from "./Section";
 import { LeftCurve, RightCurve } from "./design/Collaboration";
-
+import WaitlistForm from "./WaitlistForm";
 const Collaboration = () => {
   return (
     <Section crosses>
@@ -27,7 +27,7 @@ const Collaboration = () => {
             ))}
           </ul>
 
-          <Button>Coming Soon...</Button>
+          <WaitlistForm />
         </div>
 
         <div className="lg:ml-auto xl:w-[38rem] mt-4">

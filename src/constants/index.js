@@ -304,7 +304,7 @@ export const socials = [
    id: "1",
     title: "Twitter",
     iconUrl: twitter,
-    url: "https://x.com/MaccaWillixms",
+    url: "https://x.com/PuppyPottyPal",
    }
   // {
   //   id: "0",

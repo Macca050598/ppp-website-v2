@@ -23,8 +23,10 @@ const Services = () => {
         <div className="relative">
           <div className="relative z-1 flex items-center h-[39rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
             <div className="absolute top-0 left-0 w-full h-full pointer-events-none md:w-3/5 xl:w-auto">
+              <div className="absolute inset-0 bg-gradient-to-t from-n-8 via-n-6/90 to-transparent z-1 md:hidden" />
+              
               <img
-                className="w-full h-full object-cover md:object-right"
+                className="w-full h-full object-cover md:object-right relative z-0"
                 width={800}
                 alt="Smartest AI"
                 height={730}
@@ -33,8 +35,8 @@ const Services = () => {
             </div>
 
             <div className="relative z-1 max-w-[25rem] ml-auto">
-              <h4 className="h4 mb-4">Meet Arlo, your AI potty pal!</h4>
-              <p className="body-2 mb-[3rem] text-n-1">
+              <h4 className="h4 mb-4 md:text-n-1 text-white">Meet Arlo, your AI potty pal!</h4>
+              <p className="body-2 mb-[3rem] md:text-n-1 text-white">
               Arlo helps you stay ahead of your puppy’s potty breaks. Using an intricate algorithm, Arlo calculates when your dog will likely need the toilet, reducing accidents and making house training easier than ever.
               </p>
               <ul className="body-2">

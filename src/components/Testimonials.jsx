@@ -61,6 +61,12 @@ const Testimonials = () => {
             width: 400px !important;
           }
 
+          @media (max-width: 768px) {
+            .testimonials-swiper .swiper-slide {
+              width: 360px !important;  /* 10% smaller on mobile */
+            }
+          }
+
           .testimonials-swiper .swiper-slide-active {
             z-index: 10;
           }
@@ -75,9 +81,21 @@ const Testimonials = () => {
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
           }
 
+          @media (max-width: 768px) {
+            .testimonial-card.active {
+              transform: scale(1.05);  /* Slightly reduced scale on mobile */
+            }
+          }
+
           .testimonial-card.inactive {
             transform: scale(0.9);
             opacity: 0.5;
+          }
+
+          @media (max-width: 768px) {
+            .testimonial-card.inactive {
+              transform: scale(0.85);  /* Adjusted scale for mobile */
+            }
           }
         `}
       </style>

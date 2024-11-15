@@ -82,7 +82,7 @@ const Testimonials = () => {
         `}
       </style>
 
-      <Section className="overflow-hidden">
+      <Section id="testimonials" className="overflow-hidden">
         <div className="container relative z-2">
           <Heading
             className="md:max-w-md lg:max-w-2xl mb-16"

@@ -50,7 +50,7 @@ export const navigation = [
   },
   {
     id: "2",
-    title: "How to use",
+    title: "Attributes",
     url: "#how-to-use",
   },
   {
@@ -60,16 +60,22 @@ export const navigation = [
   },
   {
     id: "4",
-    title: "New account",
-    url: "#signup",
-    onlyMobile: true,
-  },
-  {
-    id: "5",
-    title: "Sign in",
-    url: "#login",
-    onlyMobile: true,
-  },
+    title: "Testimonials",
+    url: "#testimonials",
+  }
+  // },
+  // {
+  //   id: "4",
+  //   title: "New account",
+  //   url: "#signup",
+  //   onlyMobile: true,
+  // },
+  // {
+  //   id: "5",
+  //   title: "Sign in",
+  //   url: "#login",
+  //   onlyMobile: true,
+  // },
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];

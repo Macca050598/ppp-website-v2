@@ -11,6 +11,7 @@ import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from '@vercel/speed-insights/react';
 import Privacy from './pages/Privacy';
 import Terms from './pages/Terms';
+import Testimonials from './components/Testimonials';
 
 const App = () => {
   return (
@@ -23,10 +24,11 @@ const App = () => {
         <Services />
         <Pricing />
         <Roadmap />
+        <Testimonials />
         <Footer />
         <Analytics />
         <SpeedInsights />
-        
+       
       </div>
 
       <ButtonGradient />

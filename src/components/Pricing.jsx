@@ -27,7 +27,7 @@ const Pricing = () => {
           </div>
         </div>
 
-        <Heading
+        {/* <Heading
           tag="Get started with Puppy Potty Pal"
           title="You can pay once, use forever"
         />
@@ -36,7 +36,7 @@ const Pricing = () => {
           <PricingList />
           <LeftLine />
           <RightLine />
-        </div>
+        </div> */}
 
         {/* <div className="flex justify-center mt-10">
           <a

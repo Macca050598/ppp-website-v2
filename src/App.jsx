@@ -12,6 +12,7 @@ import { SpeedInsights } from '@vercel/speed-insights/react';
 import Privacy from './pages/Privacy';
 import Terms from './pages/Terms';
 import Testimonials from './components/Testimonials';
+import Contact from "./components/Contact";
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
         <Pricing />
         <Roadmap />
         <Testimonials />
+        <Contact />
         <Footer />
         <Analytics />
         <SpeedInsights />

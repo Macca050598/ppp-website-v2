@@ -13,6 +13,7 @@ import Privacy from './pages/Privacy';
 import Terms from './pages/Terms';
 import Testimonials from './components/Testimonials';
 import Contact from "./components/Contact";
+import ProductHuntBadge from "./components/ProductHuntBadge";
 
 const App = () => {
   return (
@@ -30,10 +31,8 @@ const App = () => {
         <Footer />
         <Analytics />
         <SpeedInsights />
-       
       </div>
-
-      <ButtonGradient />
+      <ProductHuntBadge />
     </>
   );
 };

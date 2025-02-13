@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Button from './Button';
-
+import { appStoreLogo } from '../assets';
 const WaitlistForm = () => {
   const [email, setEmail] = useState('');
   const [status, setStatus] = useState('');
@@ -48,17 +48,20 @@ const WaitlistForm = () => {
 
   return (
     <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
-      <input
+      {/* <input
         type="email"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
         placeholder="Enter your email"
         required
         className="flex-1 h-11 px-4 bg-n-17 border border-n-6 rounded-lg focus:outline-none focus:border-n-1"
-      />
-      <Button type="submit" white disabled={status === 'submitting'}>
+      /> */}
+      {/* <Button type="submit" white disabled={status === 'submitting'}>
         {status === 'submitting' ? 'Joining...' : 'Join Waitlist'}
-      </Button>
+      </Button> */}
+       <a href="https://apps.apple.com/gb/app/puppy-potty-pal/id6648792928" className="flex justify-center items-center pl-16 ml-7">
+          <img src={appStoreLogo} alt="Download on the App Store" className="h-24 w-auto" />
+        </a>
       
       {status === 'success' && (
         <p className="text-green-500 mt-2">Thanks for joining our waitlist!</p>

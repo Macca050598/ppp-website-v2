@@ -1,7 +1,7 @@
 import { useLocation } from "react-router-dom";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
 
-import { puppypottypallogo } from "../assets";
+import { puppypottypallogo, appStoreLogo } from "../assets";
 import { navigation } from "../constants";
 import Button from "./Button";
 import MenuSvg from "../assets/svg/MenuSvg";
@@ -73,9 +73,9 @@ const Header = () => {
         >
           New account
         </a> */}
-        <Button className="hidden lg:flex" href="#header">
-          Coming Soon...
-        </Button>
+        <a href="https://apps.apple.com/gb/app/puppy-potty-pal/id6648792928" className="hidden lg:flex">
+          <img src={appStoreLogo} alt="Download on the App Store" className="h-16" />
+        </a>
 
         <Button
           className="ml-auto lg:hidden"

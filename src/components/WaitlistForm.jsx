@@ -59,7 +59,7 @@ const WaitlistForm = () => {
       {/* <Button type="submit" white disabled={status === 'submitting'}>
         {status === 'submitting' ? 'Joining...' : 'Join Waitlist'}
       </Button> */}
-       <a href="https://apps.apple.com/gb/app/puppy-potty-pal/id6648792928" className="flex justify-center items-center pl-16 ml-7">
+       <a href="https://apps.apple.com/gb/app/puppy-potty-pal/id6648792928" className="flex justify-center items-center md:pl-14 ml-9 sm:pl-0 ml-0 xs: pl-1 ml-1 mr-8">
           <img src={appStoreLogo} alt="Download on the App Store" className="h-24 w-auto" />
         </a>
       

@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet';
 import ButtonGradient from "./assets/svg/ButtonGradient";
 import Benefits from "./components/Benefits";
 import Collaboration from "./components/Collaboration";
@@ -18,6 +19,11 @@ import ProductHuntBadge from "./components/ProductHuntBadge";
 const App = () => {
   return (
     <>
+      <Helmet>
+        <title>Puppy Potty Pal - Simplifying Puppy Toilet Training</title>
+        <meta name="description" content="Track, log, and predict your puppy's toilet times with ease. Join thousands of happy puppy parents!" />
+        <meta name="keywords" content="puppy training, dog training, puppy toilet training, puppy potty training, dog care" />
+      </Helmet>
       <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
         <Header />
         <Hero />

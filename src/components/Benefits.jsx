@@ -4,10 +4,15 @@ import Section from "./Section";
 import Arrow from "../assets/svg/Arrow";
 import { GradientLight } from "./design/Benefits";
 import ClipPath from "../assets/svg/ClipPath";
+import { Helmet } from 'react-helmet';
 
 const Benefits = () => {
   return (
-    <Section id="features">
+    <section id="features">
+      <Helmet>
+        <title>Benefits of Puppy Potty Pal</title>
+        <meta name="description" content="Discover the benefits of using Puppy Potty Pal for effective puppy toilet training." />
+      </Helmet>
       <div className="container relative z-2">
         <Heading
           className="md:max-w-md lg:max-w-2xl"
@@ -64,7 +69,7 @@ const Benefits = () => {
           ))}
         </div>
       </div>
-    </Section>
+    </section>
   );
 };
 

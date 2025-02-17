@@ -1,6 +1,9 @@
 const ProductHuntBadge = () => {
   return (
     <div className="fixed bottom-4 right-4 z-50">
+        <a href="https://www.uneed.best/tool/puppy-potty-pal">
+            <img src="https://www.uneed.best/EMBED1A.png" alt="Uneed Embed Badge" style={{ width: '200px', height: '55px', float: "right"}}/>
+            </a>
       <a
         href="https://www.producthunt.com/posts/puppy-potty-pal?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-puppy&#0045;potty&#0045;pal"
         target="_blank"
@@ -19,3 +22,5 @@ const ProductHuntBadge = () => {
 };
 
 export default ProductHuntBadge; 
+
+

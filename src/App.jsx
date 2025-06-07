@@ -1,4 +1,5 @@
 import { Helmet } from 'react-helmet';
+import { Routes, Route } from 'react-router-dom';
 import ButtonGradient from "./assets/svg/ButtonGradient";
 import Benefits from "./components/Benefits";
 import Collaboration from "./components/Collaboration";
@@ -16,6 +17,25 @@ import Testimonials from './components/Testimonials';
 import Contact from "./components/Contact";
 import ProductHuntBadge from "./components/ProductHuntBadge";
 
+const MainContent = () => {
+  return (
+    <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
+      <Header />
+      <Hero />
+      <Benefits />
+      <Collaboration />
+      <Services />
+      <Pricing />
+      <Roadmap />
+      <Testimonials />
+      <Contact />
+      <Footer />
+      <Analytics />
+      <SpeedInsights />
+    </div>
+  );
+};
+
 const App = () => {
   return (
     <>
@@ -24,20 +44,11 @@ const App = () => {
         <meta name="description" content="Track, log, and predict your puppy's toilet times with ease. Join thousands of happy puppy parents!" />
         <meta name="keywords" content="puppy training, dog training, puppy toilet training, puppy potty training, dog care" />
       </Helmet>
-      <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
-        <Header />
-        <Hero />
-        <Benefits />
-        <Collaboration />
-        <Services />
-        <Pricing />
-        <Roadmap />
-        <Testimonials />
-        <Contact />
-        <Footer />
-        <Analytics />
-        <SpeedInsights />
-      </div>
+      <Routes>
+        <Route path="/" element={<MainContent />} />
+        <Route path="/privacy" element={<Privacy />} />
+        <Route path="/terms" element={<Terms />} />
+      </Routes>
       <ProductHuntBadge />
     </>
   );
